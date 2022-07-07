@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Doctype</title>
+	<style>
+		body{
+			text-indent: 30px;
+			margin: 30px
+		}
+		h1,h2,h3{
+			text-indent: 0;
+		}
+		p,h3{
+			margin-left: 30px;
+		}
+		h1{
+			text-align: center;
+		}
+		pre{
+			margin-left: -70px;
+		}
+		a{
+			color: red;
+		}
+	</style>
+</head>
+<body>
+
+	<header>
+
+		<h1>Doctype</h1>
+		<h2>Descrição</h2>
+		<p>Tag usada pra especificar o tipo e versão de uma documentação</p>
+		<p>Font: <a href="https://www.homehost.com.br/blog/tutoriais/doctype-html/">Home Host</a></p>
+
+	</header>
+	<main>
+
+		<h2>Exemplos:</h2>
+
+		<h3>HTML Versão Mais Recente (HTML5)</h3>
+		<pre>
+			&lt;!DOCTYPE html&gt;
+		</pre>
+		<p>Usada para a versão mais recente do html</p>
+
+		<h3>HTML Versão 4.1</h3>
+		<pre>
+			Strict:
+			&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+			 "http://www.w3.org/TR/html4/strict.dtd"&gt;
+
+			Transitional:
+			&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+			 "http://www.w3.org/TR/html4/loose.dtd"&gt;
+
+			Frameset:
+			&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Frameset//EN"
+			 "http://www.w3.org/TR/html4/frameset.dtd"&gt;
+		</pre>
+		<p>Strict: contém todos os elementos e atributos HTML mas não permite elementos de apresentação e nem o uso de Framesets</p>
+		<p>Transitional: contém todos os elementos e atributos mas não permite Framesets</p>
+		<p>Frameset: contém tudo o que o strict tem e o que não tem</p>
+
+		<h3>XHTML Versão 1.0 - 1.1</h3>
+		<pre>
+			Strict:
+			&lt;!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+			 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"&gt;
+
+			Transitional:
+			&lt;!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+			 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"&gt;
+
+			Frameset:
+			&lt;!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Frameset//EN"
+			 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-frameset.dtd"&gt;
+
+			Simplificado?:
+			&lt;!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+			 "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd"&gt;
+		</pre>
+		<p>Todos (EXCETO XHTML1.1 "Simplificado") são parecidos com o HTML4.1 porem tem que ser escrito como XML bem formado</p>
+		<p>O XHTML1.1 "simplificado" é parecido com o strict mas permite adicionar módulos.</p>
+
+	</main>
+</body>
+</html>
