@@ -7,7 +7,7 @@
 	<style>
 		body{
 			text-indent: 30px;
-			margin: 30px
+			margin: 30px;
 		}
 		h1,h2,h3{
 			text-indent: 0;
@@ -24,27 +24,44 @@
 		a{
 			color: red;
 		}
+		.mark{
+			background-color: #f22;
+			color: #fff;
+		}
 	</style>
 </head>
 <body>
-
 	<header>
 
 		<h1>Doctype</h1>
 		<h2>Descrição</h2>
 		<p>Tag usada pra especificar o tipo e versão de uma documentação</p>
-		<p>Font: <a href="https://www.homehost.com.br/blog/tutoriais/doctype-html/">Home Host</a></p>
+		<p>Fonte: <a href="https://www.homehost.com.br/blog/tutoriais/doctype-html/">Home Host</a></p>
 
 	</header>
 	<main>
 
 		<h2>Exemplos:</h2>
 
+		<h3>No Codigo</h3>
+		<pre>
+		  <span class="mark">&lt;!DOCTYPE html&gt;</span>
+		  &lt;html&gt;
+		    &lt;head&gt;
+		      &lt;title&lt;Olá Mundo!&lt;/title&gt;
+		    &lt;/head&gt;
+		    &lt;body&gt;
+		      &lt;h1&lt;Primeiro título&lt;/h1&gt;
+		      &lt;p&lt;Primeiro parágrafo&lt;/p&gt;
+		    &lt;/body&gt;
+		  &lt;/html&gt;
+		</pre>
+
 		<h3>HTML Versão Mais Recente (HTML5)</h3>
 		<pre>
 			&lt;!DOCTYPE html&gt;
 		</pre>
-		<p>Usada para a versão mais recente do html</p>
+		<p>Usada para a versão mais recente do HTML</p>
 
 		<h3>HTML Versão 4.1</h3>
 		<pre>
@@ -82,9 +99,14 @@
 			&lt;!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
 			 "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd"&gt;
 		</pre>
-		<p>Todos (EXCETO XHTML1.1 "Simplificado") são parecidos com o HTML4.1 porem tem que ser escrito como XML bem formado</p>
-		<p>O XHTML1.1 "simplificado" é parecido com o strict mas permite adicionar módulos.</p>
+		<p>Todos (EXCETO XHTML1.1 "Simplificado") são parecidos com o HTML4.1 porém tem que ser escrito como XML bem formado</p>
+		<p>O XHTML1.1 "Simplificado" é parecido com o strict mas permite adicionar módulos.</p>
 
 	</main>
+	<footer>
+		
+		Created by <a href="https://github.com/jose-valdeval">José V.</a>
+
+	</footer>
 </body>
 </html>
